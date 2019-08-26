@@ -22,5 +22,3 @@ class AggregatorViewset(mixins.ListModelMixin,
 			return self.retrieve(request, *args, **kwargs)
 		else:
 			return self.list(request, *args, **kwargs)
-	if None:
-		pass
